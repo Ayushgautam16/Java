@@ -76,3 +76,99 @@
 
 
 
+// data types 
+
+// int, double, char, boolean, String, byte, short, long
+
+// int = 4 bytes
+
+// float = 4 bytes
+
+// double = 8 bytes
+
+// char = 2 bytes
+// here use UNICODE not an ASCII character
+
+// long = 8 bytes
+
+// boolean = 1 byte
+
+// String = reference type, it stores the address of the memory where the string data is stored
+
+// byte = 1 byte
+
+// short = 2 bytes
+
+// long = 8 bytes
+
+
+// class hello{
+//     public static void main(String[] args) {
+//         // int
+//         int x = 10;
+//         System.out.println(x);
+
+//         // float
+//         float f = 10.5f;
+//         System.out.println(f); 
+
+//         // double
+//         double y = 3.14;
+//         System.out.println(y);
+
+//         // char
+//         char c = 'a';
+//         System.out.println(c);
+
+//         // boolean
+//         boolean b = true;
+//         System.out.println(b);
+
+//         // String
+//         String s = "hello";
+//         System.out.println(s);
+
+//         // byte
+//         byte z = 127;
+//         System.out.println(z);
+
+//         // short
+//         short w = 32767;
+//         System.out.println(w);
+
+//         // long
+//         long l = 9223372036854775807L;
+//         System.out.println(l);
+
+      
+
+
+// literal =>
+
+
+// int a = 20;
+// int g = 20;
+// int sum = a + g;
+
+// System.out.println(sum);
+
+// char m = 'a';
+// c++; 
+
+// System.out.println(c);
+    
+// }
+// }
+
+// here in float f = 100.4f
+// long l =222322242l;
+
+// literal
+
+// int x = 10;
+
+// int y = 20;
+
+// int sum = x + y;
+
+// System.out.println(sum);
