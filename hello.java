@@ -40,4 +40,19 @@
 
 // java has the main 
 // public static void main()
+// jvm and jre 
+// jre has some lib and jv is responsible for the running of the code 
 
+
+
+
+
+
+
+
+class Hello{
+public static void main(String a[])
+{
+    System.out.println("hello");
+}
+}
