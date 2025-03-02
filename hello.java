@@ -50,9 +50,29 @@
 
 
 
-class Hello{
-public static void main(String a[])
-{
-    System.out.println("hello");
-}
-}
+// class hello{
+// public static void main(String a[])
+// {
+//     // System.out.println is a method which is used to print something on the console
+//     System.out.println("hello");
+//     System.out.println("2");
+//     int num = 2;
+//     // here = mens the assignment operator
+//     System.out.println(num);
+
+//     int x = 23;
+//     int y = 10;
+//     System.out.println(x + y);
+// }
+// }
+
+// to store the data we use the variable to store
+
+// variable name should start with a letter or underscore
+// variable name should not start with a number
+
+// i wanted to store the number we use int
+// int x = 10;
+
+
+
