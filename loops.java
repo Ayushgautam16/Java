@@ -28,3 +28,55 @@
 // }
 
 // 2.26 timestamp
+
+// class loops{
+//     public static void main(String args[]){
+//         for(int i =0; i<=10; i++){
+//             System.out.println(i +" say hello" );
+//         }
+
+
+
+//     }
+
+// }
+
+// class loops{
+//     public static void main(String args[]){
+//         int i = 0;
+//         while(i<=10){
+//             System.out.println(i +" say hello" );
+//             i++;
+//         }
+//     }
+// }
+
+// class loops{
+//     public static void main(String args[]){
+// int i = 0;
+//         while(i<=4){
+
+//             System.out.println(i +" say hello" );
+//            int j =1;
+//             while(j<=3){
+//                 System.out.println("nested loop");
+//                 j++;
+//             }
+//             i++;
+//         }
+     
+//     }
+// }
+
+
+// ******do while loo*********
+
+class loop{
+public static void main(String[] args) {
+    int i =1;
+    do{
+        System.out.println(i + " say hello");
+        i++;
+    }while(i<=10);
+}
+}
