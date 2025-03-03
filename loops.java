@@ -18,7 +18,7 @@
     // }
 
     // int i = 10;
-    while(i>=1){
+    // while(i>=1){1
         System.out.println("hi");
 
         i--;
