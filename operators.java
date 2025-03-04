@@ -13,9 +13,9 @@ public class operators {
 
 // logical operator
 
-int x = 6;
-boolean result = x>5 && x<10;
-System.out.println(result);
+// int x = 6;
+// boolean result = x>5 && x<10;
+// System.out.println(result);
 
 // ternary operator
 
