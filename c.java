@@ -103,8 +103,16 @@ public class c {
 
 
     public static void main(String[] args) {
-b obj = new b();
+// b obj = new b();
+b obj = new b(5);
 
 }
 }
 
+// every class in java extends  the class 
+
+    // java.lang.Object is the parent class of every class in Java.
+
+    // Every class in Java implicitly extends java.lang.Object class.
+
+    // However, you can explicitly extend any other class by using the extends keyword.

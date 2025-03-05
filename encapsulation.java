@@ -1,7 +1,4 @@
-
-
-
-// for getter and setter 
+//  for getter and setter 
 
 // class human
 // { 
