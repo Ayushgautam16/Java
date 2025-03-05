@@ -82,10 +82,20 @@
 
 
 class a {
+    public a() {
+        System.out.println("In a constructor");
+    }
 
 }
 
 class b extends a{
+    public b() {
+        System.out.println("In b constructor");
+    }
+
+    public b(int n){
+        System.out.println("In b constructor with parameter " + n);
+    }
 
 }
 
@@ -93,7 +103,7 @@ public class c {
 
 
     public static void main(String[] args) {
+b obj = new b();
 
-        
 }
 }
