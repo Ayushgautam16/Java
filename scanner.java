@@ -1,6 +1,5 @@
 import java.util.Scanner;
-
-class Geeks 
+class scanner
 {
     public static void main(String[] args)
     {
@@ -21,3 +20,6 @@ class Geeks
         scn.close();
     }
 }
+
+
+
