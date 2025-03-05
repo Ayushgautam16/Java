@@ -81,4 +81,19 @@
 
 
 
-class a
+class a {
+
+}
+
+class b extends a{
+
+}
+
+public class c {
+
+
+    public static void main(String[] args) {
+
+        
+}
+}
