@@ -45,24 +45,24 @@
 
 
 
-// final - var, method, class 
+// // final - var, method, class 
 
-class Calc{
-    final int x = 10;
-    final void show(){
-        System.out.println("class Calc show");
-    }
-    public void add(int a, int b){
-System.out.println(a+b);
-    }
-public class polymorphism{
+// class Calc{
+//     // final int x = 10;
+//     public void show(){
+//         System.out.println("class Calc show");
+//     }
+//     public void add(int a, int b){
+// System.out.println(a+b);
+//     }
+// public class polymorphism{
     
-public static void main(String[] args) {Calc obj = new Calc(); 
+// public static void main(String[] args) {Calc obj = new Calc(); 
 
-    obj.show(); // dynamic method overriding
-    obj.add(3, 8);
+//     obj.show(); // dynamic method overriding
+//     obj.add(3, 8);
     
 
-}
-}}
+// }
+// }}
 
