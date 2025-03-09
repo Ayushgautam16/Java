@@ -4,7 +4,7 @@
 
 // public class tc {
     
-    public static void main(String[] args) {
+    // public static void main(String[] args) {
         // int a = 257;
         // int a = b;
 
