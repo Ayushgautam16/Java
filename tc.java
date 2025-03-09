@@ -1,40 +1,40 @@
 
 
-// // ******** to run the code copy cmd java fie_name.java**********
+// ******** to run the code copy cmd java fie_name.java**********
 
-// public class tc {
+public class tc {
     
-//     public static void main(String[] args) {
-//         // int a = 257;
-//         // int a = b;
+    public static void main(String[] args) {
+        // int a = 257;
+        // int a = b;
 
-//         // System.out.println(a);
-// // its not working because of the older version of the jdk installer 
+        // System.out.println(a);
+// its not working because of the older version of the jdk installer 
 
 
-// // int a = 257;
-// // byte k = (byte)a;
-// // System.out.println(k);
-// // its not in the range of byte range 
+// int a = 257;
+// byte k = (byte)a;
+// System.out.println(k);
+// its not in the range of byte range 
 
         
-// // int a = 25;
-// // byte k = (byte)a;
-// // System.out.println(k);
+// int a = 25;
+// byte k = (byte)a;
+// System.out.println(k);
 
-// // float f = 56.7f;
-// // int t = (int)f;
+// float f = 56.7f;
+// int t = (int)f;
 
-// // System.out.println(t);
+// System.out.println(t);
 
-//     //   conversion the number that is the type casting 
+    //   conversion the number that is the type casting 
 
-// // byte a = 10;
-// // byte b = 20;
+// byte a = 10;
+// byte b = 20;
 
-// // int result = a * b ;
+// int result = a * b ;
 
-// // System.out.println(result); // it will give the error because of overflowing the byte range
+// System.out.println(result); // it will give the error because of overflowing the byte range
 
 
 
