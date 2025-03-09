@@ -2,7 +2,7 @@
 
 // ******** to run the code copy cmd java fie_name.java**********
 
-public class tc {
+// public class tc {
     
     public static void main(String[] args) {
         // int a = 257;
