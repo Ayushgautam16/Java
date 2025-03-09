@@ -43,7 +43,7 @@
 // / int num2 =5;
 
 // int sum = num1 + num2;
-// // // int sum = num1 / num2;   this will give t he quitient 
+// // int sum = num1 / num2;   this will give t he quitient 
 // // // int sum = num1 % num2;  this will give the remainder
 // // // int sum = num1 - num2;
 // // int sum = num1 = num1+ num2;
