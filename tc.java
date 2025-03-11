@@ -54,7 +54,7 @@
 
 int num1 = 5;
 
-// //  num1++;
+ num1++;
 // // num1--;
 // // int result2 = ++num1;
 
