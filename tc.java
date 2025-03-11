@@ -58,7 +58,7 @@ int num1 = 5;
 num1--;
 int result2 = ++num1;
 
-// // int result2 = num1--;  // here num1 will be decremented by 1 before incrementing  // it will give the output as 5 and then num1 will be decremented by 1
+int result2 = num1--;  // here num1 will be decremented by 1 before incrementing  // it will give the output as 5 and then num1 will be decremented by 1
 
 // // System.out.println(num1);  // it will give the output as 5 and then num1 will be incremented by 1
 
