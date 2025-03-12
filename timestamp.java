@@ -1,4 +1,4 @@
-public class timestamp {
+// public class timestamp {
     public static void main(String[] args){
         long timestamp = System.currentTimeMillis();
         System.out.println("•\t00:13:21 First code in java\r\n" + //
