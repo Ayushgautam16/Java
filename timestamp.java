@@ -3,7 +3,7 @@
         // long timestamp = System.currentTimeMillis();
         // System.out.println("•\t00:13:21 First code in java\r\n" + //
                         // "•\t00:24:35 How Java Works\r\n" + //
-                        "•\t00:36:34 Variables in java\r\n" + //
+                        // "•\t00:36:34 Variables in java\r\n" + //
                         "•\t00:48:11 Data types in java\r\n" + //
                         "•\t01:00:28 Literal\r\n" + //
                         "•\t01:04:49 Type conversion\r\n" + //
