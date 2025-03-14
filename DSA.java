@@ -26,7 +26,11 @@ public class DSA {
         // public static void main(String[] args) {
             // Scanner in = new Scanner(System.in);
             // System.out.print("Enter the first number: ");
-            int in = in.nextInt();
+           
+Scanner input = new Scanner(System.in);
+        
+System.out.println("Enter the value");
+        int num1 = input.nextInt();
+
         }
     
-}
