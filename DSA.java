@@ -25,7 +25,7 @@ public class DSA {
     //     // get the maximum item in the stack
         // public static void main(String[] args) {
             // Scanner in = new Scanner(System.in);
-            System.out.print("Enter the first number: ");
+            // System.out.print("Enter the first number: ");
             int in = in.nextInt();
         }
     
