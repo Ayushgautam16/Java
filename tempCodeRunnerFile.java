@@ -1,2 +1,2 @@
-"Ayush");
-// hume.setage(20);
+  int arr[] = {1, 2, 3, 4, 5};
+        int n = arr.length;
