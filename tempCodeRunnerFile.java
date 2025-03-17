@@ -1,2 +1,2 @@
-  int arr[] = {1, 2, 3, 4, 5};
-        int n = arr.length;
+System.out.println(s);
+        // s++;
