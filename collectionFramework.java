@@ -380,11 +380,22 @@ public class collectionFramework {
 
 // // TreeSet
 
-TreeSet<Integer> ts = new TreeSet<>();
+// TreeSet<Integer> ts = new TreeSet<>();
+// // sorted format always gives 
 
-ts.add(1);
+// ts.add(12);
 
-ts.add(2);
+// ts.add(222);
+
+// ts.add(33);
+
+// ts.add(121);
+
+// System.out.println("Initial TreeSet: " + ts);
+// // Initial TreeSet: [12, 33, 121, 222] sorted array 
+
+
+
 
 
 }
