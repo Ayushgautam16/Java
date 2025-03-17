@@ -1,5 +1,12 @@
-import java.util.ArrayList;
-import java.util.List;
+// import java.util.ArrayList;
+// import java.util.List;
+// import java.util.Stack;
+import java.util.LinkedList;
+import java.util.Queue;
+
+
+// import java.util.HashSet;
+
 public class collectionFramework {
     public static void main(String[] args) {
 
@@ -87,17 +94,17 @@ public class collectionFramework {
 // System.out.println(list2);
 // [22, 34, 45]
 
-List<Integer> list2 = new ArrayList<>();
-list2.add(3);
-list2.add(2);
-list2.add(23);
-list2.add(2333);
-list2.add(233);
-list2.add(222);
-list2.add(234);
-list2.add(224);
+// List<Integer> list2 = new ArrayList<>();
+// list2.add(3);
+// list2.add(2);
+// list2.add(23);
+// list2.add(2333);
+// list2.add(233);
+// list2.add(222);
+// list2.add(234);
+// list2.add(224);
 
-System.out.println(list2);
+// System.out.println(list2);
 
 // for(int i = 0; i < list2.size(); i++){
 //     System.out.println("the element is " + list2.get(i));
@@ -127,6 +134,52 @@ System.out.println(list2);
 
 
 
+
+
+
+
+// Stack
+
+// Stack<String> animal = new Stack<>();
+
+// animal.push("Lion");
+
+// animal.push("Tiger");
+
+// animal.push("Elephant");
+
+// System.out.println("Initial stack: " + animal);
+
+// System.out.println("Top element: " + animal.peek());
+
+// animal.pop();
+
+// System.out.println("After popping an element: " + animal);
+
+// animal.push("Giraffe");
+
+// System.out.println("After pushing an element: " + animal);
+
+// animal.pop();
+
+// System.out.println("After popping an element: " + animal);
+// Initial stack: [Lion, Tiger, Elephant]
+// Top element: Elephant
+// After popping an element: [Lion, Tiger]
+// After pushing an element: [Lion, Tiger, Giraffe]        
+// After popping an element: [Lion, Tiger]
+
+
+
+
+
+// Queue  
+
+Queue<Integer> queue = new LinkedList<>();
+
+queue.add(1);
+
+        
 
 }
 }
