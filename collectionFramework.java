@@ -1,9 +1,13 @@
 // import java.util.ArrayList;
 // import java.util.List;
 // import java.util.Stack;
-import java.util.LinkedList;
-import java.util.Queue;
-
+// import java.util.Comparator;
+// import java.util.PriorityQueue;
+// import java.util.LinkedList;
+// import java.util.Queue;
+// import java.util.ArrayDeque;
+// import java.util.HashSet;
+import java.util.TreeSet;
 
 // import java.util.HashSet;
 
@@ -173,13 +177,215 @@ public class collectionFramework {
 
 
 
-// Queue  
+// // Queue  
 
-Queue<Integer> queue = new LinkedList<>();
+// Queue<Integer> queue = new LinkedList<>();
 
-queue.add(1);
+// queue.offer(1);
+// queue.offer(2);
+// queue.offer(4);
+// queue.offer(15);
+// queue.offer(155);
+// queue.offer(17);
+// queue.offer(10);
+// queue.offer(1555);
 
-        
+// System.out.println("Initial queue: " + queue);
+
+// queue.poll();
+
+// System.out.println("After poll: " + queue);
+
+// System.out.println("Peek: " + queue.peek()); 
+
+
+
+
+
+
+
+// priorityQueue()
+
+// PriorityQueue<Integer> pq = new PriorityQueue<>();
+
+
+
+// pq.offer(23);
+
+// pq.offer(14);
+
+// pq.offer(33);
+
+// pq.offer(54);
+
+// pq.offer(155);
+
+// pq.offer(12);
+// System.out.println("Initial priority queue: " + pq);
+// // Initial priority queue: [12, 23, 14, 54, 155, 33]
+// System.out.println("Poll: " + pq.poll());
+// // poll removes element from queue
+// // in fifo order 
+
+// // Poll: 12
+
+// System.out.println("After poll: " + pq);
+
+// // After poll: [23, 33, 14, 54, 155]
+
+// System.out.println("Peek: " + pq.peek());
+
+// Peek returns the element at the top of queue
+
+// Peek: 23
+
+
+
+// //max to minimum priority queue order
+
+// PriorityQueue<Integer> pq = new PriorityQueue<>(Comparator.reverseOrder());
+
+// pq.offer(23);
+
+// pq.offer(14);
+
+
+// pq.offer(33);
+
+// pq.offer(54);
+
+// pq.offer(155);
+
+// pq.offer(12);
+
+// System.out.println("Initial priority queue: " + pq);
+
+// // Initial priority queue: [12, 23, 14, 54, 155, 33]
+
+
+
+// ArrayDeque 
+
+// ArrayDeque<Integer> adq = new ArrayDeque<>();
+// adq.offer(1);
+// adq.offer(2);
+// adq.offer(3);
+// adq.offer(4);
+// adq.offer(5);
+
+// System.out.println("Initial ArrayDeque: " + adq);
+
+// // // Initial ArrayDeque: [1, 2, 3, 4, 5]
+
+// System.out.println("Poll: " + adq.poll());
+
+// // // poll removes element from queue
+
+// // // in fifo order
+
+// // // Poll: 1
+
+// System.out.println("After poll: " + adq);
+
+// // // After poll: [2, 3, 4, 5]
+
+// System.out.println("Peek: " + adq.peek());
+
+// // Peek returns the element at the top of queue
+
+
+// // Peek: 2
+
+
+// adq.offerFirst(23);
+
+// System.out.println("After adding first: " + adq);
+
+// // // After adding first: [23, 2, 3, 4, 5]
+
+// adq.offerLast(155);
+
+// System.out.println("After adding last: " + adq);
+
+// // // After adding last: [23, 2, 3, 4, 5, 155]
+
+// System.out.println("Peek first: " + adq.peekFirst());
+
+// // Peek returns the first element of queue
+
+
+// // Peek first: 23
+
+// System.out.println("Peek last: " + adq.peekLast());
+
+// // Peek returns the last element of queue
+
+// // Peek last: 155
+
+
+// // Initial ArrayDeque: [1, 2, 3, 4, 5]
+// // Poll: 1
+// // After poll: [2, 3, 4, 5]
+// // Peek: 2
+// // After adding first: [23, 2, 3, 4, 5]
+// // After adding last: [23, 2, 3, 4, 5, 155]
+// // Peek first: 23
+// // Peek last: 155
+
+
+
+
+// // Set 
+// // no duplicate element allowed
+
+// HashSet<Integer> set = new HashSet<>();
+
+// set.add(1);
+
+// set.add(2);
+
+// set.add(3);
+
+// set.add(2);
+
+// System.out.println("Initial set: " + set);
+
+// // // Initial set: [1, 2, 3]
+
+// set.remove(2);
+
+// System.out.println("After removing 2: " + set);
+
+// // // After removing 2: [1, 3]
+
+// set.add(4);
+
+// System.out.println("After adding 4: " + set);
+
+// // // After adding 4: [1, 3, 4]
+
+// System.out.println("Contains 2: " + set.contains(2));
+
+// // // Contains 2: false
+
+// System.out.println("Contains 3: " + set.contains(3));   
+
+// // // Contains 3: true
+
+// System.out.println("Size of set: " + set.size());
+
+// // // Size of set: 3    
+
+
+
+// // TreeSet
+
+TreeSet<Integer> ts = new TreeSet<>();
+
+ts.add(1);
+
+ts.add(2);
+
 
 }
 }
