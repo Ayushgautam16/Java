@@ -1,3 +1,9 @@
 public class collectionFramework {
-    public
+    public static void main(String[] args) {
+
+
+
+
+        
+}
 }
