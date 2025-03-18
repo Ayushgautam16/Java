@@ -438,6 +438,14 @@ System.out.println("Get value for 'two': " + num.get("two"));
 
 //     System.out.println("After adding 'Two': " + num);
 
+// is empty()
+
+//     System.out.println("Is Map empty? " + num.isEmpty());
+
+
+
+
+
 
 
 
