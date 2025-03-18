@@ -1,6 +1,6 @@
-// import java.util.ArrayList;
-// import java.util.List;
-// import java.util.Stack;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Stack;
 // import java.util.Comparator;
 // import java.util.PriorityQueue;
 // import java.util.LinkedList;
@@ -8,8 +8,12 @@
 // import java.util.ArrayDeque;
 // import java.util.HashSet;
 // import java.util.TreeSet;
-import java.util.Map;
-import java.util.HashMap;
+// import java.util.Map;
+// import java.util.HashMap;
+// import java.util.TreeMap;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.Arrays;
 
 public class collectionFramework {
 
@@ -404,35 +408,35 @@ int rollno;
 
 
 
-Map<String, Integer> num= new HashMap<>();
+// Map<String, Integer> num= new HashMap<>();
 
-num.put("one",1);
+// num.put("one",1);
 
-num.put("two",2);
+// num.put("two",2);
 
-num.put("three",3);
+// num.put("three",3);
 
-System.out.println("Initial Map: " + num);
-// Initial Map: {one=1, two=2, three=3}
+// System.out.println("Initial Map: " + num);
+// // Initial Map: {one=1, two=2, three=3}
 
-num.remove("two");
+// num.remove("two");
 
-System.out.println("After removing two: " + num);
+// System.out.println("After removing two: " + num);
 
-// After removing two: {one=1, three=3}
+// // After removing two: {one=1, three=3}
 
-num.put("two",22);
+// num.put("two",22);
 
-System.out.println("After updating two: " + num);
+// System.out.println("After updating two: " + num);
 
-// After updating two: {one=1, three=3, two=22}
+// // After updating two: {one=1, three=3, two=22}
 
-System.out.println("Get value for 'two': " + num.get("two"));
+// System.out.println("Get value for 'two': " + num.get("two"));
 
-// if(!num.containsKey("Two")){
-//     num.put("Two", 23);
-//     System.out.println("After adding 'Two': " + num);
-// }
+// // if(!num.containsKey("Two")){
+// //     num.put("Two", 23);
+// //     System.out.println("After adding 'Two': " + num);
+// // }
 
 // if(num.containsKey("two")){
 
@@ -443,14 +447,118 @@ System.out.println("Get value for 'two': " + num.get("two"));
 //     System.out.println("Is Map empty? " + num.isEmpty());
 
 
+// // TreeMap()
+
+// TreeMap<Integer, String> tm = new TreeMap<>();
+
+// tm.put(1, "one");
+
+// tm.put(3, "three");
+
+// tm.put(2, "two");
+
+// System.out.println("Initial TreeMap: " + tm);
+
+// // Initial TreeMap: {1=one, 2=two, 3=three}
+
+// tm.remove(2);
+
+// System.out.println("After removing 2: " + tm);
+
+// // After removing 2: {1=one, 3=three}
+
+// tm.put(2, "two");
+
+// System.out.println("After updating 2: " + tm);
+
+// // After updating 2: {1=one, 2=two, 3=three}
+
+// System.out.println("Get value for 2: " + tm.get(2));
+
+// // if(!tm.containsKey(2)){
+
+// //     tm.put(2, "two");
+
+// //     System.out.println("After adding 2: " + tm);
 
 
 
 
+// Arraysclass()
+
+Integer[] arr = {1,2,3,4,5};
+int index = Arrays.binarySearch(arr,4);
+// System.out.println("the index of 4th element is", index);
+
+System.out.println("this is the index"+index);
 
 
+Integer[] num = {11,22,33,334,45};
+
+Arrays.sort(num);
+
+System.out.println("Sorted array: " + Arrays.toString(num));
 
 
+// // Sorted array: [11, 22, 33, 45, 334]
+
+// // BinarySearch: 3
+
+// // BinarySearch: -1 (not found)
+
+// // BinarySearch: 3 (found)
+
+// // BinarySearch: -2 (not found)
+
+// Arrays.fill(num, 12);
+// for(int i: num)
+// {System.out.println(i+"");}
+
+
+// System.out.println("Filled array: " + Arrays.toString(num));
+// Sorted array: [11, 22, 33, 45, 334]
+// 12
+// 12
+// 12
+// 12
+// 12
+// Filled array: [12, 12, 12, 12, 12]
+
+
+// Collection Class()
+
+List<Integer> List = new ArrayList<>();
+
+List.add(22);
+List.add(22);
+List.add(11);
+
+List.add(33);
+
+List.add(44);
+
+System.out.println("Initial List: " + List);
+
+// Initial List: [22, 11, 33, 44]
+
+System.out.println("min elmt : "+Collections.min(List));
+
+// Initial List: [22, 11, 33, 44]
+// min elmt : 11
+
+System.out.println("min elmt : "+Collections.max(List));
+
+System.out.println("Feq1 : "+Collections.frequency(List,4));
+System.out.println("Feq2: "+Collections.frequency(List,22));
+
+Collections.sort(List);
+System.out.println(List);
+
+Collections.sort(List, Comparator.reverseOrder());
+System.out.println(List);
+
+// [11, 22, 22, 33, 44]
+// [44, 33, 22, 22, 11]
 
 
 
