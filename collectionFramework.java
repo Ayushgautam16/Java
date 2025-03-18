@@ -8,10 +8,14 @@
 // import java.util.ArrayDeque;
 // import java.util.HashSet;
 // import java.util.TreeSet;
-
-// import java.util.HashSet;
+import java.util.Map;
+import java.util.HashMap;
 
 public class collectionFramework {
+
+    
+String name;
+int rollno;
     public static void main(String[] args) {
 
 // List <String> list = new ArrayList();
@@ -393,6 +397,51 @@ public class collectionFramework {
 
 // System.out.println("Initial TreeSet: " + ts);
 // // Initial TreeSet: [12, 33, 121, 222] sorted array 
+
+
+// maps
+// hashmaps
+
+
+
+Map<String, Integer> num= new HashMap<>();
+
+num.put("one",1);
+
+num.put("two",2);
+
+num.put("three",3);
+
+System.out.println("Initial Map: " + num);
+// Initial Map: {one=1, two=2, three=3}
+
+num.remove("two");
+
+System.out.println("After removing two: " + num);
+
+// After removing two: {one=1, three=3}
+
+num.put("two",22);
+
+System.out.println("After updating two: " + num);
+
+// After updating two: {one=1, three=3, two=22}
+
+System.out.println("Get value for 'two': " + num.get("two"));
+
+// if(!num.containsKey("Two")){
+//     num.put("Two", 23);
+//     System.out.println("After adding 'Two': " + num);
+// }
+
+// if(num.containsKey("two")){
+
+//     System.out.println("After adding 'Two': " + num);
+
+
+
+
+
 
 
 
