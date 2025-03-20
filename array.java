@@ -64,22 +64,22 @@
 // }
 
 
-// 3d array @@@@@@@ 
-class array {
-    public static void main(String[] args) {
-        int arr[][][] = new int[3][3][5]; // Fixed semicolon
+// // 3d array @@@@@@@ 
+// class array {
+//     public static void main(String[] args) {
+//         int arr[][][] = new int[3][3][5]; // Fixed semicolon
 
-        for (int i = 0; i < 3; i++) { // Fixed loop condition
-            for (int j = 0; j < 3; j++) { // Fixed loop condition
-                for (int k = 0; k < 5; k++) { // Fixed loop condition
-                    System.out.print(arr[i][j][k] + " "); // Fixed typo (use print instead of println)
-                }
-                System.out.println(); // Move to next line after inner loop
-            }
-            System.out.println("-----------------------------");
-        }
-    }
-}
+//         for (int i = 0; i < 3; i++) { // Fixed loop condition
+//             for (int j = 0; j < 3; j++) { // Fixed loop condition
+//                 for (int k = 0; k < 5; k++) { // Fixed loop condition
+//                     System.out.print(arr[i][j][k] + " "); // Fixed typo (use print instead of println)
+//                 }
+//                 System.out.println(); // Move to next line after inner loop
+//             }
+//             System.out.println("-----------------------------");
+//         }
+//     }
+// }
 
 // drawbacks of array #############/
 
@@ -90,4 +90,50 @@ class array {
 // 3. inefficient search and insertion: searching or inserting an element in an array requires shifting all the elements after it.
 
 // 4. limited memory: arrays require contiguous memory space, which can lead to memory fragmentation if the array is not used efficiently.
+// import java.util.Scanner;
+// import java.util.Arrays;
+// class array{
+//     public static void main(String[]args){
+//     //   int []lf = new int[9];
+// happens at compile time = happens at the time of run time 
 
+
+// int []arr = new int [5];
+// arr[0] = 10;
+// arr[1] = 20;
+// arr[2] = 30;
+// arr[3] = 40;
+// arr[4] = 50;
+
+// arr[5] = 60; // will throw an error as array is of fixed size
+
+// for(int i=0; i<arr.length; i++){
+//     System.out.println(arr[i]);
+// }
+    
+// System.out.println(arr[2]);
+// Scanner sc = new Scanner(System.in);
+// int []arr = new int[5];
+// System.out.println("Enter the elements of the array: ");
+// for(int i = 0; i < arr.length; i++){
+//     arr[i] = sc.nextInt();
+//     }
+//     for(int i = 0; i < arr.length; i++){
+//         System.out.println(arr[i]);
+//     }
+   
+// }
+
+// }
+  
+import java.util.ArrayList;
+import java.util.Arrays;
+class array{
+    public static void main(String[]args){
+
+
+       int arr[][] = new int [3][];
+
+       
+    }
+}
