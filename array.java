@@ -126,7 +126,7 @@
 
 // }
   
-import java.util.ArrayList;
+// import java.util.ArrayList;
 import java.util.Arrays;
 class array{
     public static void main(String[]args){
