@@ -33,10 +33,45 @@ public class revision {
   
 // binary num system java operator
 
+// Convert decimal to binary
+int num = 5;
+String binary = Integer.toBinaryString(num);
+System.out.println(binary);
+
+int num1 = 26 ;
+String binary1 = Integer.toBinaryString(num1);
+System.out.println(binary1);
+// 101
+// 11010
+
+// isme basically lcm lena hota hai and niche ke remainder se lekar ke upar tak ke 0 quotient ko divide karte hai 
+//    2 | 49 | 1
+//    2 | 24 | 0
+//    2 | 12 | 0
+//    2 |  6 | 0
+//    2 |  3 | 1
+//    2 |  1 | 1
+
+// 110001 so this is the binary of 49
 
 
 
 
+// Convert binary to decimal
+
+// String binary2 = "11010";
+// int decimal = Integer.parseInt(binary2, 2);
+// System.out.println(decimal);
+// 26 is the binary to decimal  conversion
+
+
+// if we wanted to convert 11010 to decimal then we have to do this
+// 1*2^4 + 1*2^3 + 0*2^2 + 1*2^1 + 0*2^0 = 26
+
+// another example 10101
+// 1*2^4 + 0*2^3 + 1*2^2 + 0*2^1 + 1*2^0 = 21
+
+// isme kuch ni krna jis place me number hai jaise in 4th positio to 4*2^4 and so on jaha thak bhi number hoga
     }
 
 
