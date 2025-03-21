@@ -1,2 +1,1 @@
-System.out.println(s);
-        // s++;
+em.out.println("the maximum number is: "+max);

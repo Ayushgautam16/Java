@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class revision {
     public static void main(String[] args){
         
@@ -181,9 +183,361 @@ public class revision {
 // package can be considered as data encapsulation
 
 
+// operators
+
+// int a = 12;
+// int b = 13;
+// int c = a+b;
+// System.out.println(c);
+// // 25
+
+// int d = a-b;
+// System.out.println(d);
+// // -1
+
+// int e = a*b;
+// System.out.println(e);
+// // 156
+
+// int f = a/b;
+// System.out.println(f);  
+// // 0
+// // here gives the quotient of the division
+
+// int g = a%b;
+// System.out.println(g);
+
+// float h = a%b;
+// System.out.println(h);
+// // 12.0
+
+// // it gives the remainder of the division
+// // 12
+
+// int i = a++;
+
+// System.out.println(i);
+
+// relational operator 
+
+// int a = 12;
+// int b = 13;
+// System.out.println(a>b);
+// // false
+// System.out.println(a<b);
+// // true
+// System.out.println(a>=b);
+// // false
+// System.out.println(a<=b);
+// // true
+// System.out.println(a==b);
+// // false
+// System.out.println(a!=b);
+// // true
+
+// logical operator
+
+// int a = 12;
+// int b = 13;
+// int c = 14;
+// System.out.println(a>b && a>c);
+// // false
+// System.out.println(a>b || a>c);
+// // false
+// System.out.println(!(a>b && a>c));
+// // true
+
+// ! operator example
+// int a = 12;
+// int b = 13;
+// System.out.println(!(a>b));
+// // true
+
+
+
+// bitwise operator
+
+// int a = 12;
+// int b = 13;
+// System.out.println(a&b);
+// // 12
+// System.out.println(a|b);
+// // 13
+// System.out.println(a^b);
+// How?
+// int a = 12;
+// int b = 13;
+// a^=b;
+// 12^13
+// 1100
+// 1101
+// 0001 in the binary form 
+
+
+// 1
+// System.out.println(~a);
+// // -13
+// how?
+// 12 = 00001100
+// ~12 = 11110011
+// 11110011 = -13
+
+// System.out.println(a<<2);
+// // 48
+
+// System.out.println(a>>2);
+// // 3
+
+// ye aagey padhenge abhi thoda tough padega
+
+// ternary operator
+
+// int a = 12;
+// int b = 13;
+// int c = 0;
+// c = a>b ? a : b;
+// System.out.println(c);
+// // 13
+
+// c = a<b ? a : b;
+
+// System.out.println(c);
+// // 12
+
+// c = a>b ? a : b;
+// System.out.println(c);
+
+// c = a<b ? a : b;
+// System.out.println(c);
+
+// user input 
+// System.out.println("Enter the value you wanted to enter: ");
+// Scanner sc = new Scanner(System.in);
+// int a = sc.nextInt();
+// System.out.println("here is the number : "+a);
+
+
+// System.out.println("Enter the line  you wanted to enter: ");
+// Scanner line = new Scanner(System.in);
+// String b = line.nextLine();
+// System.out.println("here is the line: "+b);
+
+// you can store any  thing like long aswell typecast aswell 
+
+
+// System.out.println("enter the long value you wanted to enter: ");
+// Scanner sc = new Scanner(System.in);
+// long num = sc.nextLong();
+// System.out.println("here is the long value: "+ num);
+
+// System.out.println("Enter the float value you wanted to enter: ");
+// Scanner sc = new Scanner(System.in);
+// float num = sc.nextFloat();
+
+// System.out.println("here is the float value: "+ num);
+
+
+
+
+// now suppose we need to typecast the num  during the time of the input taking 
+
+
+
+
+
+// Scanner sc = new Scanner(System.in);
+// System.out.println("Enter the value you wanted to enter: ");
+// int a = (int)sc.nextFloat();
+// // here the num typecasted to the int
+// System.out.println("here is the value: "+a);
+
+// Enter the value you wanted to enter: 
+// 1.4
+// here is the value: 1
+
+
+// Scanner sc = new Scanner(System.in);
+// System.out.println("Enter the value you wanted to enter: ");
+// int a = sc.nextInt();
+// int b = sc.nextInt();
+// int c = a+b;
+// System.out.println("here is the value: "+c);
+
+
+// garbage collector
+// it is a program that runs on the JVM that gets rid of objects that are no longer being used by a program
+// it is a part of the JVM that is responsible for reclaiming memory by destroying unused objects
+// it is a daemon thread that is low priority and runs in the background
+// it is called by the JVM when it is low on memory
+// it is called by the JVM when System.gc() is called
+
+
+// exaample
+// Scanner sc = new Scanner(System.in);
+// sc.close();
+
+// if else condition 
+
+
+// System.out.println("enter the you wanted to enter:");
+// Scanner sc = new Scanner(System.in);
+// int age = sc.nextInt();
+// if(age<=19){
+//     System.out.println("you are the teenager go and hustle ");
+// }
+// else{
+//     System.out.println("you are not the teeager no longer ");
+// }
+
+// nested if 
+
+// you are given three number and you have to tell the maximum number 
+
+// int a = 3;
+// int b = 344;
+// int c = 6;
+// if(a>b){
+//     System.out.println("a is bigger than b");
+//     if(a>c){
+//         System.out.println("a is bigger than c");
+//         System.out.println("yes a is the largest");
+//     }
+//     else{
+//         System.out.println("c is bigger than a");
+//         System.out.println("yes c is the largest");
+//     }
+
+// }
+// else{
+//     System.out.println("b is the bigger tha a");
+
+// }
+// if(b>c){
+//     System.out.println("b is the largest");
+// }
+// else{
+//     System.out.println("c is the bigger tha b");
+//     System.out.println("c is the largest");
+// }
+
+// }
+    
+// ternary operator 
+
+// condition ? expression1 : expression2
+// it is the subsitutes the condition ef else 
+
+// int a = 122;
+// int b = 23;
+// int max = 0;
+
+// if(a>b){
+//     max = a;
+// }else{
+//     max = b;
+// }
+
+// max = a>b ? a: b;
+// agar condition true hai to vo return karo jo condition 1 dera hai otherwise vo retuurn karo jo condition 2 dera hai 
+
+
+// nesting in the ternary operators 
+
+// int a = 122;
+// int b = 23;
+// int c = 69;
+// int max =0;
+
+// max = a>b? a>c ? a:c:b >c ? b:c;
+
+
+// System.out.println("the maximum number is: "+max);
+
+// agar a b se chota hai to a return karo else b return karo else agar a b se chota hai to a return karo else b return karo
+
+
+
+
+// System.out.println("the maximum number is: "+max);
+
+
+// switch case /
+
+// Scanner sc = new Scanner(System.in);
+// System.out.println("enter the day you want to enter: ");
+// int day = sc.nextInt();
+
+// switch(day){
+//     case 1:
+//         System.out.println("Sunday");
+//         break;
+//     case 2:
+//         System.out.println("monday");
+//         break;
+//     case 3:
+//         System.out.println("tuesday");
+//         break;
+//     case 4:
+//         System.out.println("wednesday");
+//         break;
+//     case 5:
+//         System.out.println("thursday");
+//         break;
+//     case 6:
+//         System.out.println("friday");
+//         break;
+//     case 7:
+//         System.out.println("saturday");
+//         break;
+
+//     default:
+//     System.out.println("enter the valid day");
+//     break;
+    
+    
+
+// }
+
+
+//     }
+
+// int time = 11;
+
+// if(time>= 10){
+//     if(time<= 20){
+//         System.out.println("office is open ");
+// }
+//     else{
+//         System.out.println("office is closed");
+//     }
+// }
+// else{
+//     System.out.println("office is closed");
+// };
+
+// if(time >=10 && time<=20){
+//     System.out.println("office is open");
+
+// }
+// else{
+//     System.out.println("office closed");
+// }
+// }
+
+
+// loops in java 
+
+// for loop 
+
+
+
+
+
+
+
+
+
+
 
     }
-
-
 }
-
