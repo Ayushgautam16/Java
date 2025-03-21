@@ -105,7 +105,19 @@ System.out.println(binary1);
 // 1*8^1 + 6*8^0 = 49   
 
 
-
+int age = 128;
+byte newage = (byte)age;
+System.out.println(newage);
+// -128 why? 
+// 128/128 = 1 0
+// 1*128^1 + 0*128^0 = 128
+// 128-128 = 0
+// 0-128 = -128
+// in byte you can store number upto 127 so if you try to store 128 then it will store -128
+// -128 to 127
+// 10000101
+// here in the 7th place is the most significant digit  if it is 1 = -ve num or 0 = +ve`num
+// 76543210 places
 
 
     }
