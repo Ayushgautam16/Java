@@ -34,13 +34,13 @@ public class revision {
 // binary num system java operator
 
 // Convert decimal to binary
-int num = 5;
-String binary = Integer.toBinaryString(num);
-System.out.println(binary);
+// int num = 5;
+// String binary = Integer.toBinaryString(num);
+// System.out.println(binary);
 
-int num1 = 26 ;
-String binary1 = Integer.toBinaryString(num1);
-System.out.println(binary1);
+// int num1 = 26 ;
+// String binary1 = Integer.toBinaryString(num1);
+// System.out.println(binary1);
 // 101
 // 11010
 
@@ -143,29 +143,42 @@ System.out.println(binary1);
 
 // binary subtraction to find the 2's compliment 
 
-//  101
-// -110
-//  011
-// 5-6 = -1
-// 1 to binary = 0001
-
-//  101
-// -110 
-//  011
-
 
 // 2's compliment here 
 // swap the bits 
 // add 1
 
 
-like we have to sub 00100
-swap = 11011
-add 1 = 11011+1 = 11100
+// like we have to sub 00100
+// swap = 11011
+// add 1 = 11011+1 = 11100
 // 11100 is the 2's compliment of 00100
 
 
+// subtract 13- 6 in binary subt
+// 13 = 1101
 
+
+// 128 to binary equals to 
+// 10000000
+// // how this 1 came ?
+// 2 | 128 | 0
+// 2 |  64 | 0
+// 2 |  32 | 0
+// 2 |  16 | 0
+// 2 |   8 | 0
+// 2 |   4 | 0
+// 2 |   2 | 0
+// 2 |   1 | 1
+// // 10000000
+// 128 to binary equals to 10000000
+ 
+// package is a collection of classes and interfaces
+// package is a namespace that organizes a set of related classes and interfaces    
+// package is used to prevent naming conflicts
+// package is used to control access
+// package provides easier access control
+// package can be considered as data encapsulation
 
 
 
