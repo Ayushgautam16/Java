@@ -105,9 +105,9 @@ System.out.println(binary1);
 // 1*8^1 + 6*8^0 = 49   
 
 
-int age = 128;
-byte newage = (byte)age;
-System.out.println(newage);
+// int age = 128;
+// byte newage = (byte)age;
+// System.out.println(newage);
 // -128 why? 
 // 128/128 = 1 0
 // 1*128^1 + 0*128^0 = 128
@@ -118,6 +118,55 @@ System.out.println(newage);
 // 10000101
 // here in the 7th place is the most significant digit  if it is 1 = -ve num or 0 = +ve`num
 // 76543210 places
+
+
+
+// addition in the binary 
+//  101
+// +110
+//  011
+// 5+6 = 11
+
+
+// if we add 0101 + 1001 
+//  0101
+// +1001
+//  1110
+// 5+9 = 14 binary to decimal
+// 14 to binary = 1110
+
+//  101
+// +110
+//  011
+// 5+6 = 11
+// 11 to binary = 1011
+
+// binary subtraction to find the 2's compliment 
+
+//  101
+// -110
+//  011
+// 5-6 = -1
+// 1 to binary = 0001
+
+//  101
+// -110 
+//  011
+
+
+// 2's compliment here 
+// swap the bits 
+// add 1
+
+
+like we have to sub 00100
+swap = 11011
+add 1 = 11011+1 = 11100
+// 11100 is the 2's compliment of 00100
+
+
+
+
 
 
     }
