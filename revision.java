@@ -696,18 +696,25 @@ public class revision {
 // 5* 5* 5* 5* 5* 5*
 
 
-// labeled break & continue Statements
-// naam ddena hota hai simply for loop while loops me 
-outer: for(int i = 0; i < 5; i++){
-    inner: for(int j = 0; j < 5; j++){
-        System.out.println("i: "+i+" j: "+j);
-    }
+// // labeled break & continue Statements
+// // naam ddena hota hai simply for loop while loops me 
+// outer: for(int i = 0; i < 5; i++){
+//     inner: for(int j = 0; j < 5; j++){
+//         System.out.println("i: "+i+" j: "+j);
+  
+//     }
+
+
+// Arrays 
+
+
+
+
 
 }
 
 }
 
-}
 
 
 
