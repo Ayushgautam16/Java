@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+import java.util.Arrays;
 public class revision {
     public static void main(String[] args){
         
@@ -707,6 +707,13 @@ public class revision {
 
 // Arrays 
 
+int age[ ] = new  int[30];
+
+for(int i = 0; i < age.length; i++){
+    age[i] = i+1;
+    System.out.println("Age: "+age[i]);
+    
+
 
 
 
@@ -715,7 +722,7 @@ public class revision {
 
 }
 
-
+}
 
 
 
