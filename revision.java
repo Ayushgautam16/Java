@@ -72,6 +72,42 @@ System.out.println(binary1);
 // 1*2^4 + 0*2^3 + 1*2^2 + 0*2^1 + 1*2^0 = 21
 
 // isme kuch ni krna jis place me number hai jaise in 4th positio to 4*2^4 and so on jaha thak bhi number hoga
+// to simple trick ye hai ki jaha bhi zero likha hai usey ignore krdo or jaha jaha number hai wahan wahan uski palce se related multiply krdo 
+
+// 1010111
+// 1*2^6 + 1*2^5 + 0*2^4 + 1*2^3 + 1*2^2 + 0*2^1 + 1*2^0 = 87
+
+// 1010100
+// 64+16+4 = 84
+
+
+
+
+
+
+//********** */ jabaran ka gyan bhi hai  yaha se *******//////
+// decimal to octal \
+// 49
+
+// 49/8 = 6 1
+// 6/8 = 0 6
+// 0/8 = 0 0    
+// 61 is the octal of 49
+
+// decimal to hexa
+// 49   
+// 49/16 = 3 1
+// 3/16 = 0 3
+// 31 is the hexa of 49
+
+// octal to decimal
+// 61
+// 1*8^1 + 6*8^0 = 49   
+
+
+
+
+
     }
 
 
