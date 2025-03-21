@@ -529,15 +529,177 @@ public class revision {
 
 // for loop 
 
+// Scanner sc = new Scanner(System.in);
+// // System.out.println("enter the number you wanted to enter: ");
+// int n = sc.nextInt();
+// // // int fact = 1;
+
+// for(int i = 1; i<=12; i++){
+//     System.out.println(n+"+"+ i+ "="+i*n);
+//     }
+
+// sum of n natural num 
+// int sum =0;
+// // sum = n(n+1)/2;
+
+// for(int i = 0 ; i<=n; i++){
+//     sum = sum+i;
+// }
+// System.out.println("the sum of the n natural number is: "+sum);
+// the sum of the n natural number is: 6
+
+
+
+
+// While loop 
+
+// int i = 1;
+// while(i<=10){    
+//     System.out.println(i);
+//     i++;
+// }
+
+
+// boolean hasLearnt = false;
+
+// while(!hasLearnt){
+// System.out.println("went to school, tried to learn ");
+// hasLearnt = sc.nextBoolean();
+
+
+
+// int n = sc.nextInt();
 
 
 
 
 
 
+// do while loop
+
+// int i = 65;
+// do{
+//     System.out.println(i);
+//     i++;
+// }while(i<=10);
+
+// break and continue   
+
+
+// for (int i = 0; i < 10; i++){
+//     System.out.println(i);
+//     if(i == 5){
+//         break;
+//     }
+// }
 
 
 
 
-    }
-}
+// for (int i = 0; i < 10; i++){
+   
+//     if(i == 5 || i ==3|| i ==4|| i ==9){
+//         continue;
+        
+//     }
+// skip krne ke liye kuch bhi continue ka use krte hai 
+    // System.out.println(i);
+    // System.out.println("continue");
+
+
+
+// nested loops 
+
+
+// for(int i = 0; i < 5; i++){
+//     for(int j = 0; j < 5; j++){
+//         System.out.println("i: "+i+" j: "+j);
+//     }
+
+// }
+// i: 0 j: 1
+// i: 0 j: 2
+// i: 0 j: 3
+// i: 0 j: 4
+// i: 0 j: 5
+// i: 0 j: 6
+// i: 0 j: 7
+// i: 0 j: 8
+// i: 0 j: 9
+// i: 1 j: 0
+// i: 1 j: 1
+// i: 1 j: 2
+// i: 1 j: 3
+// i: 1 j: 4
+// i: 1 j: 5
+// i: 1 j: 6
+// i: 1 j: 7
+// i: 1 j: 8
+// i: 1 j: 9
+// i: 2 j: 0
+// i: 2 j: 1
+// i: 2 j: 2
+// i: 2 j: 3
+// i: 2 j: 4
+// i: 2 j: 5
+// i: 2 j: 6
+// i: 2 j: 7
+// i: 2 j: 8
+// i: 2 j: 9
+// i: 3 j: 0
+// i: 3 j: 1
+// i: 3 j: 2
+// i: 3 j: 3
+// i: 3 j: 4
+// i: 3 j: 5
+// i: 3 j: 6
+// i: 3 j: 7
+// i: 3 j: 8
+// i: 3 j: 9
+// i: 4 j: 0
+// i: 4 j: 1
+// i: 4 j: 2
+// i: 4 j: 3
+// i: 4 j: 4
+// i: 4 j: 5
+// i: 4 j: 6
+// i: 4 j: 7
+// i: 4 j: 8
+// i: 4 j: 9
+
+// int n = 5;
+// for(int i = 0; i <n ; i++){
+// // for(int i = 0; i <=n ; i++){
+//     for(int j = 0; j <= i; j++){
+//         // System.out.print(j+"* ");
+//         System.out.print(i+"* ");
+//     }
+//     System.out.println();
+// }
+// * 
+// * *
+// * * *
+// * * * *
+// * * * * *
+
+// 0* 
+// 0* 1*
+// 0* 1* 2*
+// 0* 1* 2* 3*
+// 0* 1* 2* 3* 4*
+
+// 0* 
+// 1* 1*
+// 2* 2* 2*
+// 3* 3* 3* 3*
+// 4* 4* 4* 4* 4*
+// 5* 5* 5* 5* 5* 5*
+
+
+
+    }}
+
+
+
+
+
