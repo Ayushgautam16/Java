@@ -1,8 +1,8 @@
 import java.util.Scanner;
 import java.sql.Array;
 import java.util.Arrays;
-// public class revision {
-// public static void main(String[] args){
+public class revision {
+public static void main(String[] args){
         
 // long ts = 134;
 // long tsInt =(int)ts; 
@@ -1070,46 +1070,104 @@ import java.util.Arrays;
 
 // object is an instance of a class
 // object is a physical entity
-public class revision{
+// public class revision{
 
-// punlic can be only one class at the time
-public static void main(String[] args){
+// // punlic can be only one class at the time
+// public static void main(String[] args){
 
-    // dog is the class and dog1 is the object of the class dog
+//     // dog is the class and dog1 is the object of the class dog
 
-    dog dog1 = new dog();
-    dog1.breed = "labrador";
-    dog1.age = 5;
-    dog1.color = "black";
-    dog1.walk();
-    dog1.eat();
-    dog1.bark();
+//     dog dog1 = new dog();
+//     dog1.breed = "labrador";
+//     dog1.name  = "max";
+//     dog1.age = 5;
+//     dog1.color = "black";
+//     dog1.walk();
+//     dog1.eat();
+//     dog1.bark();
     
     
    
+// }
+
+
+
+// }
+// class dog{
+
+
+//     // ek class ke andar kuch behaviour or kuch function hotey hai 
+
+//     String breed;
+//     int age;
+//     String color;
+//     String name;
+
+//     void walk(){
+//         System.out.println(name+" is walking");
+//     }
+//     void eat(){
+//         System.out.println(name+" is eating");
+//     }
+//     void bark(){
+//         System.out.println(name +" is barking");
+
+
+// every object stores in the heap memory 
+
+// every object has its own copy of the instance variable
+
+//  method overloading 
+
+// int his method we can have same name inside the same class if they accepts diffrent arguments this features known as meethod overloading 
+
+// greet obj = new greet();
+// obj.greeting();
+// obj.greeting("Ayush");
+
+// }
+
+// }
+// class greet{
+//   void greeting(){
+//       System.out.println("Hello World");
+//   }
+//   void greeting(String name){
+//       System.out.println("Hello "+name);
+//   }
+// }
+
+// its because of the method  overloading ye 2 same naam ke function ko allow krta hai agar unka parameter alag hai to
+
+
+// constructors
+
+// constructors are invoked implicitly when the object is created
+// constructors are used to initialize the object
+// constructors are used to initialize the instance variables of the object    
+
+// constrainst of the constructor 
+// constructor name should be the same as the class name
+// constructor should not have any return type
+
+// types 
+// default constructor
+// parameterized constructor
+
+
+complexnum num1 = new comp1exnum(2, 3);
+System.out.println(num1.real+" + "+num1.imaginary+"i");
+
 }
 
-
-
 }
-class dog{
-
-
-    // ek class ke andar kuch behaviour or kuch function hotey hai 
-
-    String breed;
-    int age;
-    String color;
-
-    void walk(){
-        System.out.println("dog is walking");
-    }
-    void eat(){
-        System.out.println("dog is eating");
-    }
-    void bark(){
-        System.out.println("dog is barking");
+ class complexnum{
+    int real;
+    int imaginary;
+    // parameterized constructor
+    complexnum(int real, int imaginary){
+        this.real = real;
+        this.imaginary = imaginary;
+        System.out.println("parameterized constructor called");
     }
 }
-
-
