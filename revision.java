@@ -1,8 +1,8 @@
-import java.util.Scanner;
-import java.sql.Array;
-import java.util.Arrays;
-public class revision {
-public static void main(String[] args){
+// import java.util.Scanner;
+// import java.sql.Array;
+// import java.util.Arrays;
+// public class revision {
+// public static void main(String[] args){
         
 // long ts = 134;
 // long tsInt =(int)ts; 
@@ -1155,19 +1155,19 @@ public static void main(String[] args){
 // parameterized constructor
 
 
-complexnum num1 = new comp1exnum(2, 3);
-System.out.println(num1.real+" + "+num1.imaginary+"i");
+// complexnum num1 = new comp1exnum(2, 3);
+// System.out.println(num1.real+" + "+num1.imaginary+"i");
 
-}
+// }
 
-}
- class complexnum{
-    int real;
-    int imaginary;
-    // parameterized constructor
-    complexnum(int real, int imaginary){
-        this.real = real;
-        this.imaginary = imaginary;
-        System.out.println("parameterized constructor called");
-    }
-}
+// }
+//  class complexnum{
+//     int real;
+//     int imaginary;
+//     // parameterized constructor
+//     complexnum(int real, int imaginary){
+//         this.real = real;
+//         this.imaginary = imaginary;
+//         System.out.println("parameterized constructor called");
+//     }
+// }
