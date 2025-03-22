@@ -603,12 +603,40 @@ public class revision {
         
 //     }
 // skip krne ke liye kuch bhi continue ka use krte hai 
+// ********when u wanted to skip the current iteration ******** 
     // System.out.println(i);
     // System.out.println("continue");
 
+// for(int i = 0; i < 10; i++){
+//     if(i == 5) continue;
+    
+//     System.out.println(i);
+// }
+
+
+// for(int i = 0; i < 10; i++){
+//     if(i == 5) break;
+//     System.out.println(i);
+// }
+     
 
 
 // nested loops 
+
+// @@@@@@@@ 
+// bahar wala loop ddekhta hia ki andar wala loop kitni baar chalega
+// or andar wala loop  dekhta hai ki uske andar wala loop kitni baar chalega
+// andar wala loop 
+// jaise 1 se 5 tak ke number ko 5 baar likhna hai har number ko to 
+// ############# /
+
+// for(int i = 0; i <=5; i++){
+//     for(int j = 0; j <=5; j++){
+//         System.out.println(j);
+//     }
+//     System.out.println("");
+// }
+
 
 
 // for(int i = 0; i < 5; i++){
@@ -716,10 +744,10 @@ public class revision {
 
 // for each loop 
 
-int age[] = {12, 13, 14, 15, 16, 17, 18, 19, 20};
-for(int i : age){
-    System.out.println(i);
-}
+// int age[] = {12, 13, 14, 15, 16, 17, 18, 19, 20};
+// for(int i : age){
+//     System.out.println(i);
+// }
 
 
 
