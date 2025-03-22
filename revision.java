@@ -707,13 +707,19 @@ public class revision {
 
 // Arrays 
 
-int age[ ] = new  int[30];
+// int age[ ] = new  int[30];
 
-for(int i = 0; i < age.length; i++){
-    age[i] = i+1;
-    System.out.println("Age: "+age[i]);
-    
+// for(int i = 0; i < age.length; i++){
+//     age[i] = i+1;
+//     System.out.println("Age: "+age[i]);
 
+
+// for each loop 
+
+int age[] = {12, 13, 14, 15, 16, 17, 18, 19, 20};
+for(int i : age){
+    System.out.println(i);
+}
 
 
 
@@ -722,7 +728,6 @@ for(int i = 0; i < age.length; i++){
 
 }
 
-}
 
 
 
