@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.sql.Array;
 import java.util.Arrays;
 public class revision {
     public static void main(String[] args){
@@ -627,17 +628,17 @@ public class revision {
 // bahar wala loop ddekhta hia ki andar wala loop kitni baar chalega
 // or andar wala loop  dekhta hai ki uske andar wala loop kitni baar chalega
 // andar wala loop 
-// jaise 1 se 5 tak ke number ko 5 baar likhna hai har number ko to 
+// jaise 1 se 5 tak ke number ko 10 baar likhna hai har number ko to 
 // ############# /
 
-// for(int i = 0; i <=5; i++){
+// for(int i = 0; i <=10; i++){
 //     for(int j = 0; j <=5; j++){
 //         System.out.println(j);
 //     }
 //     System.out.println("");
 // }
 
-
+ 
 
 // for(int i = 0; i < 5; i++){
 //     for(int j = 0; j < 5; j++){
@@ -724,12 +725,17 @@ public class revision {
 // 5* 5* 5* 5* 5* 5*
 
 
-// // labeled break & continue Statements
-// // naam ddena hota hai simply for loop while loops me 
+// labeled break & continue Statements
+// naam ddena hota hai simply for loop while loops me 
+
 // outer: for(int i = 0; i < 5; i++){
-//     inner: for(int j = 0; j < 5; j++){
+//     if(i ==3){
+//         break outer;
+//     }
+//     inner: for(int j = 0; j < 2; j++){
 //         System.out.println("i: "+i+" j: "+j);
-  
+//   if(j ==1){
+//       continue inner;
 //     }
 
 
@@ -741,22 +747,67 @@ public class revision {
 //     age[i] = i+1;
 //     System.out.println("Age: "+age[i]);
 
+// int arr[] = new int[5];
+// arr[0] = 12;
+// arr[1] = 13;
+// arr[2] = 14;
+// arr[3] = 15;
+// arr[4] = 16;
 
-// for each loop 
+// for(int i = 0; i < arr.length; i++){
+//     System.out.println("Age: "+arr[i]);
+// }
 
-// int age[] = {12, 13, 14, 15, 16, 17, 18, 19, 20};
-// for(int i : age){
-//     System.out.println(i);
+// int arr[] = {12, 13, 14, 15, 16, 17, 18, 19, 20};
+// for(int i = 0; i < arr.length; i++){
+//     System.out.println("Age: "+arr[i]);
 // }
 
 
 
 
-}
+
+
+// for each loop 
+
+// int age[] = {12, 13, 14, 15, 16, 17, 18, 19, 20};
+
+// for(int i : age){
+//     System.out.println(i);
+// }
+
+// for(int i=0;i<  age.length;i++){
+//     System.out.println(age[i]);
+
+
+// int age[] = {12, 13, 14, 15, 16, 17, 18, 19, 20};
+
+// int max = Integer.MIN_VALUE;
+// for(int i : age){
+//     if(i>max){
+//         max = i;
+        
+//     }
+
+// }
+// System.out.println("the maximum number is: "+max);
+
+
+// multidimensional array
+
+int a [][] = new int[4][3];
+
+int a[][]  ={
+    {1, 2, 3},
+    {4, 5, 6},
+    {7, 8, 9},
+    {10, 11, 12}
+};
+
+
 
 }
 
-
-
+}
 
 
