@@ -1,8 +1,8 @@
-import java.util.Scanner;
-import java.sql.Array;
-import java.util.Arrays;
-public class revision {
-    public static void main(String[] args){
+// import java.util.Scanner;
+// import java.sql.Array;
+// import java.util.Arrays;
+// public class revision {
+//     public static void main(String[] args){
         
 // long ts = 134;
 // long tsInt =(int)ts; 
@@ -795,19 +795,127 @@ public class revision {
 
 // multidimensional array
 
-int a [][] = new int[4][3];
+// int marks[][] = new int[4][3];
 
-int a[][]  ={
-    {1, 2, 3},
-    {4, 5, 6},
-    {7, 8, 9},
-    {10, 11, 12}
-};
+// int s[][]  ={
+//     {1, 2, 3},
+//     {4, 5, 6},
+//     {7, 8, 9},
+//     {10, 11, 12}
+// };
+// System.out.println(Arrays.deepToString(s));
+
+
+// }
+
+// Methods in java = Functions 
+// java methods ko hi function bolte hai 
+
+// methods is a block of code 
+// methods are used to perform certain actions
+// methods are also known as functions
+// why use methods? to reuse code: define the code once, and use it many times
+// you can pass data, known as parameters, into a method    
+// methods can return data
+// methods are independent of each other    
+// methods are called by their name, but they can also be called by their name and their parameters
+// methods are the part of the class
+// methods are the part of the object
+// methods are the part of the interface
+// methods are the part of the package
+// methods are the part of the java file
+
+//  access specifier 
+//  return type
+//  method name
+//  parameters
+//  method body
+
+public class revision {
+    public static void main(String[] args){
+
+
+
+// string ka array pass kiya hai or args jo hai vo ek variable ka name hai kuch bi likh skte ho us jagah pe
+// for the return type of the args 
+
+
+for(String arg: args){
+    System.out.println(arg);
+}
+
+
+
+// why these deefault parameters of String[] args were pass?
+// because the main method is the entry point of the java program
+// and the main method is the starting point of the java program
+// and the main method is the first method that is called by the JVM
+// and the main method is the first method that is executed by the JVM
+// and the main method is the first method that is executed by the JVM when the program is run
+
+
+
+// *********for the function call for display()*********
+        // for the function call for greet()
+// System.out.println("Hello World");
+// greet(2, 02);
+// System.out.println("hogaya greet wala print ");
+
+// *********output*********** 
+// Hello World
+// a:  b:
+// a + b = 4
+// hogaya greet wala print
+
+
+// function call for display()
+
+// display(3, 4);
+// System.out.println(display(3, 4));
+// System.out.println("the sum of the two number is: "+display(3, 4));
+
+
+
+
+        // int a = 12;
+
+    //     }
+    //     public static int display(int a, int b){
+    //         return a+b;
+    //     }
+
+    //     public static void display1(){
+            
+    //         // nothing because it is void 
+    // }
+    // public static void greet(int a, int b){
+    //         System.out.println("Hello World");
+    //         System.out.println("a: "+" b: ");
+    //         System.out.println("a + b = "+(a+b));
+
+    //     }
+
+    //     public void crest(String[] args){
+    //         int a = 12;
+    //         System.out.println(a);
+    //     }
+}
+
+
+
+ 
+
+
+
 
 
 
 }
+// access specifier = public
+// return type = void
+// method name = main
+// parameters = String[] args
+// method body = {int a = 12;}
 
-}
-
-
+// static laga dene par obj bananey ki jarurat ni hai greet();
+// call kr skte hai 
