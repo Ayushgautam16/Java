@@ -1,8 +1,8 @@
-// import java.util.Scanner;
-// import java.sql.Array;
-// import java.util.Arrays;
+import java.util.Scanner;
+import java.sql.Array;
+import java.util.Arrays;
 // public class revision {
-//     public static void main(String[] args){
+// public static void main(String[] args){
         
 // long ts = 134;
 // long tsInt =(int)ts; 
@@ -831,8 +831,8 @@
 //  parameters
 //  method body
 
-public class revision {
-    public static void main(String[] args){
+// public class revision {
+//     public static void main(String[] args){
 
 
 
@@ -840,9 +840,9 @@ public class revision {
 // for the return type of the args 
 
 
-for(String arg: args){
-    System.out.println(arg);
-}
+// for(String arg: args){
+//     System.out.println(arg);
+// }
 
 
 
@@ -888,6 +888,17 @@ for(String arg: args){
             
     //         // nothing because it is void 
     // }
+
+// access specifier = public
+// return type = void
+// method name = main
+// parameters = String[] args
+// method body = {int a = 12;}
+
+// static laga dene par obj bananey ki jarurat ni hai greet();
+// call kr skte hai 
+
+
     // public static void greet(int a, int b){
     //         System.out.println("Hello World");
     //         System.out.println("a: "+" b: ");
@@ -899,23 +910,206 @@ for(String arg: args){
     //         int a = 12;
     //         System.out.println(a);
     //     }
-}
+
+// math function 
+
+// // Float a = 4.2313f;
+// int a =4;
+// int b = 2;
+
+// System.out.println(Math.min(a, b));
+
+// System.out.println(Math.max(a, b));
+
+// System.out.println(Math.pow(a, b));
+
+// System.out.println(Math.sqrt(a));
+
+// System.out.println(Math.random());
+
+// System.out.println(Math.abs(-4.7));
+// // negative ko +ve value dega
+
+// System.out.println(Math.ceil(4.7));
+
+// System.out.println(Math.floor(4.7));
+
+// System.out.println(Math.round(4.7));
+
+// System.out.println(randomnum());
+// return (int) Math.random()*6;
 
 
+
+// System.out.println(Math.random()*6);
+
+// System.out.println(Math.round(a));
+
+
+
+
+//     }
+//     public static int randomnum(){
+// return (int) Math.random()*6;
+//     }
+
+
+// java String 
+
+// non primitive data set
+// sequence of char is string 
+// string is a class in java
+// string is a collection of characters
+// string is a collection of characters enclosed in double quotes
+// string is a collection of characters enclosed in single quotes
+
+// String name = new Scanner(System.in).nextLine();
+// System.out.println("diffrence "+name);
+// String name = "Hello World";
+// System.out.println(name);
+
+// diffrence in new keyword and without new keyword by the memory allocation 
+
+//  string constant pool  = String yahan par banti hai 
+//  heap memory = new String yahan par banti hai
+
+// String name = "Hello World"; string pool me bana hoga
+// System.out.println("hello world");  ye bhi same hai str literal pool me bana hoga
+// String name1 = "Hello World";  ye dekhega ye to already ban rakha hua hai to isey same jagah point krwa dete hai
+// String name2 = new String("Hello World");  heap area me ban jaati hai new position me
+// String name3 = new String("Hello World");
+
+
+// garbage collector 
+// it is a program that runs on the JVM that gets rid of objects that are no longer being used by a program
+// it is a part of the JVM that is responsible for reclaiming memory by destroying unused objects
+
+// it is called by the JVM when it is low on memory
+// it is called by the JVM when System.gc() is called
+// declare it 
+// System.gc();
 
  
+// stack memory me refrence store hotey hai and 
+// heap memory me object store hota hai
+
+// Scanner sc = new Scanner(System.in);
+// System.out.println("enter your first name you wanted to enter: ");
+// String name = sc.nextLine();
+// System.out.println("enter your second name you wanted to enter: ");
+// String name1 = sc.nextLine();
+
+// String fullname = name.concat(name1);
+
+// System.out.println("your full name is: "+fullname);
+
+// if(name==name1){
+//     System.out.println("Both names are same");
+// }
+// else{
+//     System.out.println("you are good to go " + fullname);
+// }
+
+// if(name.equals(name1)){
+
+// java string method 
+
+// String name = "Hello World";
+// System.out.println(name.length());
+
+// System.out.println(name.charAt(5));
+
+// System.out.println(name.substring(0, 5));
+
+// System.out.println(name.contains("Hello"));
+
+// System.out.println(name.equals("Hello World"));
+
+// System.out.println(name.isEmpty());
+
+// System.out.println(name.concat(" World"));
+
+// System.out.println(name.replace("Hello", "Hi"));
+
+// System.out.println(name.toUpperCase());
+
+// System.out.println(name.toLowerCase());
+
+// System.out.println(name.trim());
+
+// System.out.println(name.indexOf("World"));
+
+// System.out.println(name.lastIndexOf("World"));
+
+// 11
+// H
+// Hello
+// true
+// true
+// false
+// Hello World World
+// Hi World
+// HELLO WORLD
+// hello world
+// Hello World
+// 6
+// 6
+
+// String color = "Brown";
+// String color1 = "Brown";
+// String color2 = new String("Brown");
 
 
+// object orientd programming in java 
 
+
+// classes and objects 
+
+// class is a blueprint for the object which defines some of the properties and behaviours of the object
+// class is a template for the object   
+
+// object is an instance of a class
+// object is a physical entity
+public class revision{
+
+// punlic can be only one class at the time
+public static void main(String[] args){
+
+    // dog is the class and dog1 is the object of the class dog
+
+    dog dog1 = new dog();
+    dog1.breed = "labrador";
+    dog1.age = 5;
+    dog1.color = "black";
+    dog1.walk();
+    dog1.eat();
+    dog1.bark();
+    
+    
+   
+}
 
 
 
 }
-// access specifier = public
-// return type = void
-// method name = main
-// parameters = String[] args
-// method body = {int a = 12;}
+class dog{
 
-// static laga dene par obj bananey ki jarurat ni hai greet();
-// call kr skte hai 
+
+    // ek class ke andar kuch behaviour or kuch function hotey hai 
+
+    String breed;
+    int age;
+    String color;
+
+    void walk(){
+        System.out.println("dog is walking");
+    }
+    void eat(){
+        System.out.println("dog is eating");
+    }
+    void bark(){
+        System.out.println("dog is barking");
+    }
+}
+
+
