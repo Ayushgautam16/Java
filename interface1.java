@@ -13,3 +13,25 @@
     // lambda interfaces are used to create anonymous functions.
 
     // lambda interfaces can be used to define a contract between a class and its methods using lambda expressions or method references.
+
+    // Example:
+
+    class interface1{
+public static void main(String[] args) {
+    interface MyFunctionalInterface {
+        void myMethod();
+    }
+    
+    MyFunctionalInterface myLambda = () -> System.out.println("Hello World!");
+    myLambda.myMethod();
+    // Output: Hello World!
+
+
+    MyFunctionalInterface myLambda2 = System.out::println;
+    myLambda2.myMethod();
+    // Output: Hello World!
+}
+   
+   
+
+}
