@@ -23,7 +23,7 @@
 // }
 
 
-// access modifiers = new Access
+// access modifiers 
 
 // // public : accessible from any package
 // // protected : accessible from the same package and the subclasses
@@ -31,8 +31,18 @@
 // // private : accessible from the same class
 
 
-private class packages {
+class packages {
     public static void main(String[] args) {
-        System.out.println("packages");
+      teacher t = new teacher();
+      t.getStudent= 12;
+    //   t.id = 10;
+
+    //   idhar allowed ni hai 
+
+    t.degree = "Masters";
+    
+
     }
+
+
 }
