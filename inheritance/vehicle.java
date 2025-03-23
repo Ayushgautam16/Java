@@ -1,7 +1,7 @@
 package inheritance;
 
 // Parent class or superclass
-public class vehicle {
+class vehicle {
     int wheels;
     int headLights;
     String color;
