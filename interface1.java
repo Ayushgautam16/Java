@@ -17,8 +17,8 @@
     // Example:
 
     // class interface1{
-public static void main(String[] args) {
-    interface MyFunctionalInterface {
+// public static void main(String[] args) {
+    // interface MyFunctionalInterface {
         void myMethod();
     }
     
