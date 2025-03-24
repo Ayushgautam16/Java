@@ -19,7 +19,7 @@
     // class interface1{
 // public static void main(String[] args) {
     // interface MyFunctionalInterface {
-        void myMethod();
+        // void myMethod();
     }
     
     MyFunctionalInterface myLambda = () -> System.out.println("Hello World!");
