@@ -23,7 +23,7 @@
     // }
     
     // MyFunctionalInterface myLambda = () -> System.out.println("Hello World!");
-    myLambda.myMethod();
+    // myLambda.myMethod();
     // Output: Hello World!
 
 
