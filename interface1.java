@@ -20,7 +20,7 @@
 // public static void main(String[] args) {
     // interface MyFunctionalInterface {
         // void myMethod();
-    }
+    // }
     
     MyFunctionalInterface myLambda = () -> System.out.println("Hello World!");
     myLambda.myMethod();
