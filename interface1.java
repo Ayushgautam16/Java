@@ -22,7 +22,7 @@
         // void myMethod();
     // }
     
-    MyFunctionalInterface myLambda = () -> System.out.println("Hello World!");
+    // MyFunctionalInterface myLambda = () -> System.out.println("Hello World!");
     myLambda.myMethod();
     // Output: Hello World!
 
