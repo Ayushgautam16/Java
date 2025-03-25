@@ -94,10 +94,10 @@
 // class XOR {
     // public static void main(String[] args) {
     //     Scanner sc = new Scanner(System.in);
-        System.out.print("Enter a binary number: ");
-        String binary = sc.nextLine();
-        int decimal = Integer.parseInt(binary, 2); // Convert binary to decimal
-        System.out.println("Decimal equivalent: " + decimal);    
-        sc.close();
-    }
-}
+//         System.out.print("Enter a binary number: ");
+//         String binary = sc.nextLine();
+//         int decimal = Integer.parseInt(binary, 2); // Convert binary to decimal
+//         System.out.println("Decimal equivalent: " + decimal);    
+//         sc.close();
+//     }
+// }
