@@ -1,5 +1,4 @@
 import java.util.*;
-
 class XOR{
     static int findUnique(int[] arr) {
         int result = 0;
