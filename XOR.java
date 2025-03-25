@@ -90,8 +90,8 @@
 // binary to decimal conversion
 // import java.util.Scanner;
 
-import java.util.*;
-class XOR {
+// import java.util.*;
+// class XOR {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a binary number: ");
