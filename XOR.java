@@ -49,28 +49,28 @@
 // }
 
 
-3. Find a Bit That Differentiates x and y
-java
-Copy
-Edit
-int setBit = result & ~(result - 1);
-This extracts the rightmost set bit from result.
+// 3. Find a Bit That Differentiates x and y
+// java
+// Copy
+// Edit
+// int setBit = result & ~(result - 1);
+// This extracts the rightmost set bit from result.
 
-result - 1 flips the rightmost 1 in result, and ~(result - 1) isolates it.
+// result - 1 flips the rightmost 1 in result, and ~(result - 1) isolates it.
 
-Example:
+// Example:
 
-yaml
-Copy
-Edit
-result = 3  →  0000 0011 (Binary)
-result - 1 = 2  → 0000 0010
-~(result - 1)   → 1111 1101
-setBit = 3 & ~(2) → 0000 0011 & 1111 1101 = 0000 0001
-This tells us that x and y differ at the rightmost bit.
-
-
+// yaml
+// Copy
+// Edit
+// result = 3  →  0000 0011 (Binary)
+// result - 1 = 2  → 0000 0010
+// ~(result - 1)   → 1111 1101
+// setBit = 3 & ~(2) → 0000 0011 & 1111 1101 = 0000 0001
+// This tells us that x and y differ at the rightmost bit.
 
 
-// }
+
+
+
 
