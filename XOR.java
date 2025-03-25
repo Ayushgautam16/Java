@@ -1,6 +1,6 @@
 import java.util.*;
 
-class SingleElementFinder {
+class XOR{
     static int findUnique(int[] arr) {
         int result = 0;
         for (int num : arr) {
