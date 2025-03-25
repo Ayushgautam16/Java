@@ -71,6 +71,33 @@
 
 
 
+// decimal to binary conversion
+// import java.util.Scanner;
+
+// class XOR {
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         System.out.print("Enter a decimal number: ");
+//         int decimal = sc.nextInt();
+//         String binary = Integer.toBinaryString(decimal); // Convert decimal to binary
+//         System.out.println("Binary equivalent: " + binary);
+//         sc.close();
+//     }
+// }
 
 
 
+// binary to decimal conversion
+// import java.util.Scanner;
+
+import java.util.*;
+class XOR {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter a binary number: ");
+        String binary = sc.nextLine();
+        int decimal = Integer.parseInt(binary, 2); // Convert binary to decimal
+        System.out.println("Decimal equivalent: " + decimal);    
+        sc.close();
+    }
+}
