@@ -3,7 +3,7 @@
 // import java.util.Arrays;
 // public class revision {
 // public static void main(String[] args){
-        
+decimal        
 // long ts = 134;
 // long tsInt =(int)ts; 
 // //  here tsInt isliye likha hai taaki error na aaye var ka hi naam hai 
