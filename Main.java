@@ -25,7 +25,7 @@
         // Scanner sc = new Scanner(System.in);
         // int n = sc.nextInt();
 
-        if(n < 18) {
+        // if(n < 18) {
             System.out.println("You are not allowed to drive");
         }
         else if(n >= 18 && n <= 45) {
