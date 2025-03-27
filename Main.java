@@ -19,7 +19,7 @@
 // class demo{
    
 
-public class Main {
+// public class Main {
     public static void main(String[] args) {
         System.out.println("Enter the value you wanted to enter: ");
         Scanner sc = new Scanner(System.in);
