@@ -23,7 +23,7 @@
     // public static void main(String[] args) {
         // System.out.println("Enter the value you wanted to enter: ");
         // Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
+        // int n = sc.nextInt();
 
         if(n < 18) {
             System.out.println("You are not allowed to drive");
