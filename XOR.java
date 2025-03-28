@@ -72,18 +72,18 @@
 
 
 // decimal to binary conversion
-// import java.util.Scanner;
+import java.util.Scanner;
 
-// class XOR {
-//     public static void main(String[] args) {
-//         Scanner sc = new Scanner(System.in);
-//         System.out.print("Enter a decimal number: ");
-//         int decimal = sc.nextInt();
-//         String binary = Integer.toBinaryString(decimal); // Convert decimal to binary
-//         System.out.println("Binary equivalent: " + binary);
-//         sc.close();
-//     }
-// }
+class XOR {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter a decimal number: ");
+        int decimal = sc.nextInt();
+        String binary = Integer.toBinaryString(decimal); // Convert decimal to binary
+        System.out.println("Binary equivalent: " + binary);
+        sc.close();
+    }
+}
 
 
 
