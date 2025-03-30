@@ -78,6 +78,6 @@
 // // this ke andar current obj ka refrence store hota hai 
 
 
-// inheritance //
+inheritance //
 
 
