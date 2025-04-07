@@ -106,7 +106,7 @@
 
 // class Swap{
 
-    static void sap(int a, int b){
+    // static void sap(int a, int b){
         int temp = a;
         a = b;
         b = temp;
