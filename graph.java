@@ -47,11 +47,30 @@ public class graph {
 
 
 // adjacency list 
-List<integer> graph = new ArrayList<>();
+// List<List<Integer>> graph = new ArrayList<>();
+// int [][] arr = new int [5][];
+// int [][] nums = {{0,1},{1,2},{2,3},{3,4}};
 
-// add vertices
+// for(int i = 0; i < 4; i++){
+//     arr[i] = new int[2];
+//     arr[i][0] = nums[i][0];
+//     arr[i][1] = nums[i][1];
+// //     }
+//     for(int i = 0; i < nums.length; i++){
+//         arr[nums[i][0]].add(nums[i][1]);
+//         arr[nums[i][1]].add(nums[i][0]);
+//     }
+   
+// for (int i = 0; i<5; i++) {
+//     System.out.print(i + " : ");
+//     for (int j = 0; j<arr[i].length; j++) {
+//         System.out.print(arr[i][j]+", ");
+//     }
+//     System.out.println();
+// }
+// we have to change the degree of the vector graph 
 
-graph.add(new ArrayList<>());
+
 
 
     }
