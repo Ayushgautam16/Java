@@ -280,25 +280,25 @@
 // // -13
 // how?
 // 12 = 00001100
-// ~12 = 11110011
-11110011 = -13
+// // ~12 = 11110011
+// 11110011 = -13
 
-System.out.println(a<<2);
-// 48
+// System.out.println(a<<2);
+// // 48
 
-System.out.println(a>>2);
-// 3
+// System.out.println(a>>2);
+// // 3
 
-ye aagey padhenge abhi thoda tough padega
+// ye aagey padhenge abhi thoda tough padega
 
-ternary operator
+// ternary operator
 
-// int a = 12;
-// int b = 13;
-// int c = 0;
-// c = a>b ? a : b;
-// System.out.println(c);
-// // 13
+// // int a = 12;
+// // int b = 13;
+// // int c = 0;
+// // c = a>b ? a : b;
+// // System.out.println(c);
+// // // 13
 
 // c = a<b ? a : b;
 
